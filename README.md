@@ -22,3 +22,5 @@ https://label-dcc.games/
 https://label-dcc.games/dirty-system/
 https://linktr.ee/LazarBaruk
 https://linktr.ee/LinouMajorZero
+
+![Aperçu du Dirty System](packs/img/preview.png)
