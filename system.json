@@ -1,0 +1,34 @@
+{
+    "name": "dirty-system",
+    "title": "Dirty System",
+    "description": "Le Dirt System du Dirty Clean Crew enfin sur foundry !",
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "12"
+    },
+    "authors": [
+        {
+            "name": "Neo",
+            
+            "url": "https://x.com/FumbleAcademy"
+        }
+    ],
+    "scripts": [
+        "module.js"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "esmodules": [],
+    "styles": [
+        "styles/styles.css"
+    ],
+    "packs": [],
+    "license": "LICENSE.txt",
+    "readme": "README.md"
+}

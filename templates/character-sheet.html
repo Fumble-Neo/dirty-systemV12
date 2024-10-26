@@ -1,0 +1,263 @@
+<form class="character-sheet">
+  <div class="character-details">
+    <div class="portrait-container">
+      <img alt="Portrait" class="portrait-image" src="{{actor.img}}"/>
+    </div>
+    <div class="details-inputs">
+      <div>
+        <label for="profil">
+          PROFIL
+        </label>
+        <input id="profil" name="system.profil" type="text" value="{{system.profil}}"/>
+      </div>
+      <div>
+        <label for="style">
+          STYLE
+        </label>
+        <input id="style" name="system.style" type="text" value="{{system.style}}"/>
+      </div>
+      <div>
+        <label for="attache">
+          ATTACHE
+        </label>
+        <input id="attache" name="system.attache" type="text" value="{{system.attache}}"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="bonus-container" style="position: absolute; top: 220px; left: 20px; width: 635px;">
+    <div class="bonus-checkboxes">
+      <label><input type="checkbox" class="bonus-checkbox" data-target="bonusProfil" data-modifier="+2"> +2 Profil</label><br>
+      <label><input type="checkbox" class="bonus-checkbox" data-target="bonusProfil" data-modifier="+1"> +1 Profil</label><br>
+      <label><input type="checkbox" class="bonus-checkbox" data-target="bonusLien" data-modifier="+1"> +1 Lien</label><br>
+      <label><input type="checkbox" class="bonus-checkbox" data-target="capaciteSecondaire" data-modifier="+1"> +1 Capacité secondaire</label><br>
+      <label><input type="checkbox" class="bonus-checkbox" data-target="tension" data-modifier="-1"> Malus MJ -1</label><br>
+      <label><input type="checkbox" class="bonus-checkbox" data-target="tension" data-modifier="-2"> Malus MJ -2</label>
+    </div>
+  </div>
+
+  <div class="stat-block" style="margin-top: 100px;">
+    <div class="stat-item" data-attr="affronter">
+      <div class="stat-name">
+        AFFRONTER
+        <img class="stat-icon" src="systems/dirty-system/packs/img/Pictos DS V1/Affronter_w.png" alt="Icone Affronter">
+      </div>
+      <div class="stat-values-container">
+        <input id="custom-affronter" name="system.custom.affronter" type="number" value="{{system.custom.affronter}}" class="stat-value"/>
+        <input id="memo-affronter" name="system.memo.affronter" type="number" value="{{system.memo.affronter}}" class="stat-memo"/>
+        <div class="stat-controls">
+          <button type="button" class="memo-increase" data-target="memo-affronter">▲</button>
+          <button type="button" class="memo-decrease" data-target="memo-affronter">▼</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="stat-item" data-attr="endurer">
+      <div class="stat-name">
+        ENDURER
+        <img class="stat-icon" src="systems/dirty-system/packs/img/Pictos DS V1/Endurer_w.png" alt="Icone Endurer">
+      </div>
+      <div class="stat-values-container">
+        <input id="custom-endurer" name="system.custom.endurer" type="number" value="{{system.custom.endurer}}" class="stat-value"/>
+        <input id="memo-endurer" name="system.memo.endurer" type="number" value="{{system.memo.endurer}}" class="stat-memo"/>
+        <div class="stat-controls">
+          <button type="button" class="memo-increase" data-target="memo-endurer">▲</button>
+          <button type="button" class="memo-decrease" data-target="memo-endurer">▼</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="stat-item" data-attr="franchir">
+      <div class="stat-name">
+        FRANCHIR
+        <img class="stat-icon" src="systems/dirty-system/packs/img/Pictos DS V1/Franchir_w.png" alt="Icone Franchir">
+      </div>
+      <div class="stat-values-container">
+        <input id="custom-franchir" name="system.custom.franchir" type="number" value="{{system.custom.franchir}}" class="stat-value"/>
+        <input id="memo-franchir" name="system.memo.franchir" type="number" value="{{system.memo.franchir}}" class="stat-memo"/>
+        <div class="stat-controls">
+          <button type="button" class="memo-increase" data-target="memo-franchir">▲</button>
+          <button type="button" class="memo-decrease" data-target="memo-franchir">▼</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="stat-item" data-attr="connaitre">
+      <div class="stat-name">
+        CONNAÎTRE
+        <img class="stat-icon" src="systems/dirty-system/packs/img/Pictos DS V1/Connaitre_w.png" alt="Icone Connaître">
+      </div>
+      <div class="stat-values-container">
+        <input id="custom-connaitre" name="system.custom.connaitre" type="number" value="{{system.custom.connaitre}}" class="stat-value"/>
+        <input id="memo-connaitre" name="system.memo.connaitre" type="number" value="{{system.memo.connaitre}}" class="stat-memo"/>
+        <div class="stat-controls">
+          <button type="button" class="memo-increase" data-target="memo-connaitre">▲</button>
+          <button type="button" class="memo-decrease" data-target="memo-connaitre">▼</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="stat-item" data-attr="raisonner">
+      <div class="stat-name">
+        RAISONNER
+        <img class="stat-icon" src="systems/dirty-system/packs/img/Pictos DS V1/Raisonner_w.png" alt="Icone Raisonner">
+      </div>
+      <div class="stat-values-container">
+        <input id="custom-raisonner" name="system.custom.raisonner" type="number" value="{{system.custom.raisonner}}" class="stat-value"/>
+        <input id="memo-raisonner" name="system.memo.raisonner" type="number" value="{{system.memo.raisonner}}" class="stat-memo"/>
+        <div class="stat-controls">
+          <button type="button" class="memo-increase" data-target="memo-raisonner">▲</button>
+          <button type="button" class="memo-decrease" data-target="memo-raisonner">▼</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="stat-item" data-attr="utiliser">
+      <div class="stat-name">
+        UTILISER
+        <img class="stat-icon" src="systems/dirty-system/packs/img/Pictos DS V1/Utiliser_w.png" alt="Icone Utiliser">
+      </div>
+      <div class="stat-values-container">
+        <input id="custom-utiliser" name="system.custom.utiliser" type="number" value="{{system.custom.utiliser}}" class="stat-value"/>
+        <input id="memo-utiliser" name="system.memo.utiliser" type="number" value="{{system.memo.utiliser}}" class="stat-memo"/>
+        <div class="stat-controls">
+          <button type="button" class="memo-increase" data-target="memo-utiliser">▲</button>
+          <button type="button" class="memo-decrease" data-target="memo-utiliser">▼</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="stat-item" data-attr="influencer">
+      <div class="stat-name">
+        INFLUENCER
+        <img class="stat-icon" src="systems/dirty-system/packs/img/Pictos DS V1/Influencer_w.png" alt="Icone Influencer">
+      </div>
+      <div class="stat-values-container">
+        <input id="custom-influencer" name="system.custom.influencer" type="number" value="{{system.custom.influencer}}" class="stat-value"/>
+        <input id="memo-influencer" name="system.memo.influencer" type="number" value="{{system.memo.influencer}}" class="stat-memo"/>
+        <div class="stat-controls">
+          <button type="button" class="memo-increase" data-target="memo-influencer">▲</button>
+          <button type="button" class="memo-decrease" data-target="memo-influencer">▼</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="stat-item" data-attr="percevoir">
+      <div class="stat-name">
+        PERCEVOIR
+        <img class="stat-icon" src="systems/dirty-system/packs/img/Pictos DS V1/Percevoir_w.png" alt="Icone Percevoir">
+      </div>
+      <div class="stat-values-container">
+        <input id="custom-percevoir" name="system.custom.percevoir" type="number" value="{{system.custom.percevoir}}" class="stat-value"/>
+        <input id="memo-percevoir" name="system.memo.percevoir" type="number" value="{{system.memo.percevoir}}" class="stat-memo"/>
+        <div class="stat-controls">
+          <button type="button" class="memo-increase" data-target="memo-percevoir">▲</button>
+          <button type="button" class="memo-decrease" data-target="memo-percevoir">▼</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="stat-item" data-attr="ressentir">
+      <div class="stat-name">
+        RESSENTIR
+        <img class="stat-icon" src="systems/dirty-system/packs/img/Pictos DS V1/Ressentir_w.png" alt="Icone Ressentir">
+      </div>
+      <div class="stat-values-container">
+        <input id="custom-ressentir" name="system.custom.ressentir" type="number" value="{{system.custom.ressentir}}" class="stat-value"/>
+        <input id="memo-ressentir" name="system.memo.ressentir" type="number" value="{{system.memo.ressentir}}" class="stat-memo"/>
+        <div class="stat-controls">
+          <button type="button" class="memo-increase" data-target="memo-ressentir">▲</button>
+          <button type="button" class="memo-decrease" data-target="memo-ressentir">▼</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="stat-item" data-attr="engagementContact">
+      <div class="stat-name">
+        ENGAGEMENT AU CONTACT
+      </div>
+      <div class="stat-values-container">
+        <input id="custom-engagementContact" name="system.custom.engagementContact" type="number" value="{{system.custom.engagementContact}}" class="stat-value"/>
+        <input id="memo-engagementContact" name="system.memo.engagementContact" type="number" value="{{system.memo.engagementContact}}" class="stat-memo"/>
+        <div class="stat-controls">
+          <button type="button" class="memo-increase" data-target="memo-engagementContact">▲</button>
+          <button type="button" class="memo-decrease" data-target="memo-engagementContact">▼</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="stat-item" data-attr="engagementDistance">
+      <div class="stat-name">
+        ENGAGEMENT À DISTANCE
+      </div>
+      <div class="stat-values-container">
+        <input id="custom-engagementDistance" name="system.custom.engagementDistance" type="number" value="{{system.custom.engagementDistance}}" class="stat-value"/>
+        <input id="memo-engagementDistance" name="system.memo.engagementDistance" type="number" value="{{system.memo.engagementDistance}}" class="stat-memo"/>
+        <div class="stat-controls">
+          <button type="button" class="memo-increase" data-target="memo-engagementDistance">▲</button>
+          <button type="button" class="memo-decrease" data-target="memo-engagementDistance">▼</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="stat-item reserve-profil" data-attr="reserveProfil">
+      <div class="stat-name">
+        RÉSERVE DE PROFIL
+      </div>
+      <div class="stat-values-container">
+        <input id="custom-reserveProfil" name="system.custom.reserveProfil" type="number" value="{{system.custom.reserveProfil}}" class="stat-value"/>
+        <input id="memo-reserveProfil" name="system.memo.reserveProfil" type="number" value="{{system.memo.reserveProfil}}" class="stat-memo"/>
+        <div class="stat-controls">
+          <button type="button" class="memo-increase" data-target="memo-reserveProfil">▲</button>
+          <button type="button" class="memo-decrease" data-target="memo-reserveProfil">▼</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="blessure-effroi-container">
+    <div class="blessure-section">
+      <div class="stat-name">
+        BLESSURE
+      </div>
+      <button id="roll-blessure">
+        Lancer
+      </button>
+      <button class="heart-button" id="remove-penalty">
+        ❤️
+      </button>
+    </div>
+
+    <div class="effroi-section">
+      <div class="stat-name">
+        EFFROI
+      </div>
+      <button id="roll-effroi">
+        Lancer
+      </button>
+      <button class="heart-button" id="remove-effroi-penalty">
+        ❤️
+      </button>
+    </div>
+  </div>
+  
+  <nav class="tabs-navigation">
+    <ul>
+      <li class="active" data-tab="attributes-tab">Home</li>
+      <li data-tab="onglet-tab">Historique</li>
+      <li data-tab="possessions-tab">Possessions</li>
+    </ul>
+  </nav>
+  
+  <section class="content">
+    <div class="tab active" data-tab="attributes-tab">
+      
+    </div>
+    <div class="tab" data-tab="onglet-tab">
+      <textarea name="system.ongletNotes" rows="10">{{system.ongletNotes}}</textarea>
+    </div>
+    <div class="tab" data-tab="possessions-tab">
+      <textarea name="system.possessionsNotes" rows="10">{{system.possessionsNotes}}</textarea>
+    </div>
+  </section>
+</form>
