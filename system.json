@@ -1,7 +1,7 @@
 {
     "name": "dirty-system",
     "title": "Dirty System",
-    "description": "Le Dirt System du Dirty Clean Crew enfin sur foundry !",
+    "description": "Le Dirty System du Dirty Clean Crew enfin sur Foundry !",
     "version": "1.0.0",
     "compatibility": {
         "minimum": "10",
@@ -10,7 +10,6 @@
     "authors": [
         {
             "name": "Neo",
-            
             "url": "https://x.com/FumbleAcademy"
         }
     ],
@@ -30,5 +29,7 @@
     ],
     "packs": [],
     "license": "LICENSE.txt",
-    "readme": "README.md"
+    "readme": "README.md",
+    "manifest": "https://github.com/Fumble-Neo/dirty-system/raw/main/system.json",
+    "download": "https://github.com/Fumble-Neo/dirty-system/archive/refs/heads/main.zip"
 }
