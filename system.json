@@ -3,14 +3,14 @@
   "name": "dirty-system",
   "title": "Dirty System",
   "type": "system",
-  "description": "Le Dirty System du Dirty Clean Crew enfin sur Foundry !",
+  "description": "Le Dirty System du Dirty Clean Crew, version V12 compatible Foundry VTT.",
   "version": "1.0.0",
 
   "compatibility": {
     "minimum": "10",
-    "verified": "13"
+    "verified": "12"
   },
-  "compatibleCoreVersion": "13",
+  "compatibleCoreVersion": "12",
 
   "authors": [
     {
@@ -40,6 +40,6 @@
 
   "license": "LICENSE.txt",
   "readme": "README.md",
-  "manifest": "https://github.com/Fumble-Neo/DirtySystemV13/raw/main/system.json",
-  "download": "https://github.com/Fumble-Neo/DirtySystemV13/archive/refs/heads/main.zip"
+  "manifest": "https://github.com/Fumble-Neo/dirty-systemV12/raw/main/system.json",
+  "download": "https://github.com/Fumble-Neo/dirty-systemV12/archive/refs/heads/main.zip"
 }
