@@ -1,35 +1,45 @@
 {
-    "name": "dirty-system",
-    "title": "Dirty System",
-    "description": "Le Dirty System du Dirty Clean Crew enfin sur Foundry !",
-    "version": "1.0.0",
-    "compatibility": {
-        "minimum": "10",
-        "verified": "12"
-    },
-    "authors": [
-        {
-            "name": "Neo",
-            "url": "https://x.com/FumbleAcademy"
-        }
-    ],
-    "scripts": [
-        "module.js"
-    ],
-    "languages": [
-        {
-            "lang": "en",
-            "name": "English",
-            "path": "lang/en.json"
-        }
-    ],
-    "esmodules": [],
-    "styles": [
-        "styles/styles.css"
-    ],
-    "packs": [],
-    "license": "LICENSE.txt",
-    "readme": "README.md",
-    "manifest": "https://github.com/Fumble-Neo/dirty-system/raw/main/system.json",
-    "download": "https://github.com/Fumble-Neo/dirty-system/archive/refs/heads/main.zip"
+  "id": "dirty-system",
+  "name": "dirty-system",
+  "title": "Dirty System",
+  "type": "system",
+  "description": "Le Dirty System du Dirty Clean Crew enfin sur Foundry !",
+  "version": "1.0.0",
+
+  "compatibility": {
+    "minimum": "10",
+    "verified": "13"
+  },
+  "compatibleCoreVersion": "13",
+
+  "authors": [
+    {
+      "name": "Neo",
+      "url": "https://x.com/FumbleAcademy"
+    }
+  ],
+
+  "esmodules": [
+    "module.js"
+  ],
+
+  "styles": [
+    "styles/styles.css"
+  ],
+
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+
+  "packs": [],
+  "system": {},
+
+  "license": "LICENSE.txt",
+  "readme": "README.md",
+  "manifest": "https://github.com/Fumble-Neo/DirtySystemV13/raw/main/system.json",
+  "download": "https://github.com/Fumble-Neo/DirtySystemV13/archive/refs/heads/main.zip"
 }
