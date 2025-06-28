@@ -16,7 +16,7 @@ Des bugs peuvent survenir, si vous en rencontrez, je suis disponible sur Discord
 
 ### Comment télécharger le système
 
-Voici le manifeste : [https://github.com/Fumble-Neo/dirty-system/raw/main/system.json](https://github.com/Fumble-Neo/dirty-system/raw/main/system.json)  
+Voici le manifeste : https://github.com/Fumble-Neo/dirty-systemV12/raw/main/system.json
 Copiez ce lien, puis ouvrez Foundry VTT. Dans l'application, allez dans la section pour installer un système. Collez le lien dans le champ "URL du manifeste" et cliquez sur "Installer".
 
 
